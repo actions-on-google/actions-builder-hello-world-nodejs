@@ -1,0 +1,11 @@
+category: GAMES_AND_TRIVIA
+defaultLocale: en
+localizedSettings:
+  developerEmail: example@example.com
+  developerName: Example Developer Name
+  fullDescription: Hello World Action.
+  privacyPolicyUrl: https://example.com
+  sampleInvocations:
+  - talk to hello world test
+  shortDescription: Hello world test action.
+projectId: <PROJECT_ID>

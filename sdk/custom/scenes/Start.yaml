@@ -1,0 +1,11 @@
+conditionalEvents:
+- condition: "True"
+  transitionToScene: actions.scene.END_CONVERSATION
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: ' and hello world from the console!'
+  webhookHandler: start_scene_initial_prompt

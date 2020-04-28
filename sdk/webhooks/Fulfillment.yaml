@@ -1,0 +1,4 @@
+handlers:
+- name: start_scene_initial_prompt
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment
